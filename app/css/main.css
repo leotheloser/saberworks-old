@@ -344,6 +344,12 @@ html {
 .u-f {
   width: 100%; }
 
+.u-w-f2 {
+  font-family: "gothamrnd-book"; }
+
+.u-w-f3 {
+  font-family: "gothamrnd-medium"; }
+
 span.c-field:before {
   border-left: 1px solid #ddd;
   content: "";
@@ -374,6 +380,25 @@ textarea {
   padding-top: 21px;
   max-width: 100%;
   min-height: 100px; }
+
+.logo-stamp {
+  text-align: center;
+  height: 108px;
+  width: 108px;
+  background: #ffffff;
+  margin: auto;
+  border: 6px solid #ebebeb;
+  border-radius: 50%; }
+
+svg.stamp {
+  fill: #ebebeb;
+  width: 20px;
+  height: 15px;
+  top: 16px;
+  position: relative;
+  overflow: visible;
+  display: inline-block;
+  text-align: center; }
 
 /**
  * Allows you to change the default container name
@@ -423,7 +448,7 @@ textarea {
     .o-container {
       padding-left: 21px; } }
 
-.o-container--size-small {
+.o-container--medium {
   max-width: 970px; }
 
 /**
@@ -710,6 +735,10 @@ textarea {
  *
  * Type: Map
  */
+.o-type-terms {
+  font-size: 14px;
+  line-height: 18px; }
+
 .o-type-text {
   font-size: 16px;
   line-height: 28px; }
@@ -3563,3 +3592,8 @@ ul li.c-nav-item {
   vertical-align: top; }
   .c-list-v li.o-list__item:not(:last-child) {
     margin-right: 7px; }
+
+.c-link {
+  color: #5fcf80; }
+  .c-link:hover {
+    opacity: 0.8; }
