@@ -1,0 +1,44 @@
+
+.c-avatar-upload{
+    display: inline-block;
+    width: 138px;
+    height: 138px;
+    border: 5px solid #ebebeb;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-size: 128px 128px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-transition: box-shadow .1s;
+    transition: box-shadow .1s;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/55/ed/03/55ed037….jpg);
+
+    input{
+    opacity: 0;
+    position: absolute;
+    margin-top: 18px;
+    z-index: 0;
+    padding: 44px 63px;
+    width: 129px;
+    cursor: pointer;
+    }
+}
+
+
+    .c-avatar-round{
+    border-radius: 50%;
+    }
+    .c-avatar-small{
+        height: 42px;
+        width: 42px;
+    }
+    
+    .c-avatar-medium{
+        height: 108px;
+        width: 108px;
+    }
+
+
+

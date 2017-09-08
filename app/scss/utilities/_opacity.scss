@@ -1,0 +1,21 @@
+/**
+ * Opacity sizes
+ *
+ * Type: Map
+ */
+
+$iota-utils-opacity-sizes: (
+  60 : 0.6,
+  90 : 0.9
+);
+
+/**
+ * Namespace classes
+ *
+ * Type: String
+ */
+
+$iota-utils-opacity-namespace: 'opacity-';
+
+
+@import 'node_modules/iotacss/utilities/opacity';

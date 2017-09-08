@@ -1,0 +1,11 @@
+
+.c-image {
+    display: block;
+    height: auto;
+    width: 100%;
+
+    &.size-90{
+    height: 90px;
+    width: 90px;   
+    }
+}

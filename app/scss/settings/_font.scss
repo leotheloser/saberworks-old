@@ -1,0 +1,44 @@
+@import '../tools/font';
+$f1 : 'gothamrnd-bold';
+$f2 : 'gothamrnd-book';
+$f3 : 'gothamrnd-medium';
+$f4 : 'gothamrnd-light';
+
+ @include font-face($f1, "../fonts/gothamrnd-bold");
+ @include font-face($f2, "../fonts/gothamrnd-book");
+ @include font-face($f3, "../fonts/gothamrnd-medium");
+ @include font-face($f4, "../fonts/gothamrnd-light");
+
+
+/**
+ * Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files are automatically sourced.
+ *
+ * Type: Setting / font - normal
+ */
+
+// @include font-face(gothamrnd-medium, "../fonts/gothamrnd-medium");
+
+
+ /**
+ * Create a font face rule that applies to bold and italic text.
+ *
+ * Type: Setting / font - bold and italic
+ */
+
+// @include font-face(gotham, fonts/gotham, null, null, woff);
+
+  /**
+ * Create a font face rule that only sources a WOFF.
+ *
+ * Type: Setting / font - woff
+ */
+
+//  @include font-face(gotham, fonts/gotham, 500, normal, eot woff2 woff);
+
+  /**
+ * Create a font face rule that applies to 500 weight text and sources EOT, WOFF2, and WOFF.
+ *
+ * Type: Setting / font - normal and 500
+ */
+
+

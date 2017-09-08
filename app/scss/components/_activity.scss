@@ -1,0 +1,13 @@
+
+
+.c-payment-activity{
+
+    .c-stripe{
+    //    background: $bg-color-grey;
+
+       &:nth-child(odd){
+        background: $bg-color-grey-light;
+       }
+    }
+
+}

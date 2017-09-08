@@ -1,0 +1,31 @@
+
+
+.c-control{
+ margin-bottom: $baseline-x3;
+
+}
+
+.c-form{
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 0;
+    border-radius: 0;
+    font-weight: 300;
+    height: $baseline-x8;
+    @include iota-type($type-16);
+    letter-spacing: .33px;
+    
+    &:hover{
+    border-bottom: 2px solid $color-green;    
+    }
+    &:focus{
+     border-bottom: 2px solid $color-green;   
+    }
+}
+
+
+    textarea.c-form{    
+        height: $baseline-x9;
+        padding-top: $baseline-x3;    
+    }

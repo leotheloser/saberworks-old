@@ -1,0 +1,199 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<h1>This is the index page</h1>
+
+<!-- Importing Nunjucks Macro -->
+{% import 'macros/nav-macro.nunjucks' as nav %}
+<!-- Creating the navigation with activePage = 'home' -->
+{{nav.active('home')}}
+
+<div class="gallery">
+  <!-- Loops through "images" array -->
+  {% for image in images %}
+  <div class="gallery__item">
+    <img src="{{image.src}}" alt="{{image.alt}}">
+  </div>
+  {% endfor %}
+</div>
+
+  <div class="o-container">
+
+      <div class="o-grid o-grid--x4 o-grid--middle u-text-center u-mb-x8">
+        <div class="o-grid__col u-1/3 u-mb-x2@xs">
+          <div class="c-card ">
+            <h2 class="o-type-ms6 u-color-purple u-mb-x3">10</h2>
+            <p class="o-type-ms1 ">Published posts</p>
+          </div>
+        </div>
+        <div class="o-grid__col u-1/3 u-mb-x2@xs">
+          <div class="c-card ">
+            <h2 class="o-type-ms6 u-color-red u-mb-x3">10</h2>
+            <p class="o-type-ms1 ">Deleted posts</p>
+          </div>
+        </div>
+        <div class="o-grid__col u-1/3 u-mb-x2@xs">
+          <div class="c-card ">
+            <h2 class="o-type-ms6 u-color-grey-dark u-mb-x3">10</h2>
+            <p class="o-type-ms1 ">Scheduled posts</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="o-grid o-grid--middle u-mb-x5">
+        <div class="o-grid__col u-1/2">
+          <h2 class="o-type-ms2 u-weight-bold">All posts</h2>
+        </div>
+        <div class="o-grid__col u-1/2 u-text-right">
+          <button class=" c-button c-primary-button ghost  ">View all</button>
+        </div>
+      </div>
+    
+      <h1 class="u-align-top u-align-middle@md">
+        Heading vertically aligned top on mobile and middle on tablets and up.
+      </h1>
+    <h1 class="u-align-middle@xs u-color-green">
+      Heading aligned middle in mobiles.
+    </h1>
+
+    <h1 class="u-uppercase u-lowercase@md">
+  Heading uppercase on mobile and lowercase on tablets and up.
+    </h1>  
+
+<nav class="c-navigation">
+  <ul class="c-navigation__list  o-list  o-list--inline">
+    <li class="c-navigation__item  o-list__item">
+      <a href="#" class="c-link  u-color-white">I am a nav 1</a>
+    </li>
+    <li class="c-navigation__item  o-list__item">
+      <a href="#" class="c-link  u-color-white">I am a nav 2</a>
+    </li>
+    <li class="c-navigation__item  o-list__item">
+      <a href="#" class="c-link  u-color-white">I am a nav 3</a>
+    </li>
+  </ul>
+</nav>
+
+
+
+
+    <div class="o-grid">
+
+      <div class="o-grid__col u-1/2 u-1/3@md">
+        <div class="c-card ">
+        Column 1 / 2 in mobile, 1/3 in tablet and up.
+        </div>
+
+      </div>
+
+      <div class="o-grid__col u-1/2 u-1/3@md">
+        <div class="c-card ">
+        Column 1 / 2 in mobile, 1/3 in tablet and up.
+        </div>
+      </div>
+      <div class="o-grid__col u-1/2 u-1/3@md">
+        <div class="c-card ">
+        Column 1 / 2 in mobile, 1/3 in tablet and up.
+        </div>
+      </div>
+      
+
+    </div>
+
+     <br>
+
+       <h2 class="u-m-mdall@md"> Template layout</h2>
+
+
+    <div class="o-grid  o-grid--equal-height u-mb@md">
+
+  <div class="o-grid__col u-2/3@md">
+    <div class="c-card ">
+    content
+    </div>
+  </div>
+
+  
+  <div class="o-grid__col u-1/3@md u-hidden@md">
+    <div class="c-card ">
+    side bar
+    </div>
+  </div>
+
+</div>
+
+  <h2 class="u-m-mdall@md"> Button Elements</h2>
+  
+  <p class="u-m-x3">
+        Using a tag
+      </p>
+
+      <div class="c-card ">
+    
+
+      <a class="c-button u-mb">
+          Click Me
+        </a>
+          
+        <a class="c-button ghost u-mb">
+          Click Me
+        </a>
+
+            <a class="c-button c-active u-mb">
+          Click Me
+        </a>
+
+          <a class="c-button c-secondary-button c-active u-mb">
+          Cancel active
+        </a>
+
+        <a class="c-button c-primary-button ghost u-mb">
+          Save Settings
+        </a>
+          <a class="c-button c-secondary-button ghost u-mb">
+          Close your Account
+        </a>
+
+
+    </div>
+
+
+  <p class="u-m-md">
+    using a button input
+  </p>
+
+  <div class="c-card">
+
+    <button class="c-button u-mb">
+     Submit
+   </button>
+          
+    <button class="c-button ghost u-mb">
+      Click Me
+    </button>
+
+    <button class="c-button c-active u-mb">
+    Click Me
+    </button>
+
+    <button class="c-button c-secondary-button c-active u-mb">
+    Cancel active
+    </button>
+
+    <button class="c-button c-primary-button ghost u-mb">
+    Save Settings
+    </button>
+
+    <button class="c-button c-secondary-button ghost u-mb">
+    Close your Account
+    </button>
+
+  </div>
+
+   
+    </div>
+
+
+{% endblock %}

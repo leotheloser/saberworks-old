@@ -1,0 +1,54 @@
+$background-base: #fafafa;
+$background-primary: #3e474f;
+$background-secondary: #fff;
+
+$bg-color-white: rgb(255, 255, 255);
+$bg-color-white-light : rgb(249, 249, 249);
+$bg-color-grey: rgb(250, 250, 250);
+$bg-color-grey-light : rgb(247, 247, 247); 
+$bg-color-grey-dark  : rgb(235, 235, 235);
+
+$color-white : rgb(255, 255, 255);
+$color-black : rgb(74, 74, 74);
+$color-black-light : rgb(51, 51, 51);
+$color-grey : rgb(123, 139, 142);
+$color-grey-light : rgb(183, 192, 199);
+$color-grey-dark : rgb(90, 103, 114);
+
+$color-green : rgb(95, 207, 128);
+// $color-green-light
+
+$color-red : rgb(243, 86, 117);
+
+
+$button-color: rgb(245, 245, 245);
+$button-color-ghost: rgb(236, 236, 236);
+$button-color-primary: rgb(95, 207, 128);
+$button-color-secondary : rgb(243, 86, 117);
+
+$colors: (
+ 'white'        : $color-white,
+ 'black'        : $color-black,
+ 'black-light'  : $color-black-light,
+ 'grey'         : $color-grey,
+ 'grey-light'   : $color-grey-light,
+ 'grey-dark'    : $color-grey-dark,
+ 'green'        : $color-green,
+ 'red'          : $color-red
+);
+
+$bg-colors: (
+    'white' : $color-white,
+    'white-light' : $bg-color-white-light,  
+    'grey' : $bg-color-grey,
+    'grey-light' : $bg-color-grey-light
+
+);
+
+$br-colors: (
+    'white' : $color-white,
+    'grey' : $bg-color-grey,
+    'grey-light' : $bg-color-grey-light,
+    'grey-dark'  : $bg-color-grey-dark
+
+);

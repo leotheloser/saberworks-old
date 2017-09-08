@@ -1,0 +1,9 @@
+{
+  "cover-iamges": [{
+    "src": "/1.jpg",
+    "alt": "cover image one"
+  }, {
+    "src": "/2.jpg",
+    "alt": "cover image two"
+  }]
+}

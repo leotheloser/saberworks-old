@@ -1,0 +1,52 @@
+html{
+ background: $background-base;   
+}
+
+.u-f{
+width: 100%;
+}
+
+ span.c-field{
+ 
+    &:before{
+    border-left: 1px solid #ddd;
+    content: "";
+    margin-left: 10px;
+    padding-left: 10px;    
+    }
+    
+ }
+
+hr {
+    background-color: #dbdbdb;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1.5rem 0;
+
+    &.u-light{
+    background-color: #ffeeee;    
+    }
+
+}
+
+input, textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    box-shadow: none;
+    max-width: 100%;
+    width: 100%;
+    
+    &:focus{
+    outline: none;    
+    }
+}
+
+textarea{
+    height: $baseline-x9;
+    padding-top: $baseline-x3;
+    max-width: 100%;
+    min-height: 100px;  
+}
+

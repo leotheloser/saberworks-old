@@ -1,0 +1,65 @@
+
+html{
+    font-size: 14px;
+}
+body {
+  font-family: $f3, sans-serif;
+//   @include iota-type($type-20);
+     color: $color-black;
+} 
+
+
+
+
+
+a { 
+  text-decoration: none;
+  color: inherit;
+  transition: color 100ms 0s ease;   
+}
+
+span{
+     font-family: $f3, sans-serif;
+     font-size: 16px;
+     font-weight: normal;
+     
+     &.u-light{
+     font-family: $f2, sans-serif;
+     }
+}
+
+p{
+  font-size: 13px;
+  font-weight: 400;
+  font-family: $f3, sans-serif;
+  line-height: 20px; 
+}
+
+input,textarea{
+ font-family: $f2;   
+}
+
+h1{
+  font-size: 34px;
+  font-family: $f3;
+  font-weight: normal; 
+}
+
+h2 {
+  font-family: $f3;
+  font-weight: normal;
+  @include iota-type(
+    (
+      null : (24px, 24px),
+      sm   : (16px, 20px)
+    )
+  );
+}
+
+h3{
+
+}
+
+h4{
+font-weight: normal;
+}

@@ -1,0 +1,169 @@
+// .u-br{
+// border-color:#f7f7f7;
+// border-style: solid;   
+// }
+// .u-br-r3{
+// border-radius: 3%;
+// }
+// .u-br-r50{
+// border-radius: 50%;
+// }
+// .u-br-cl{
+// border-color:#ebebeb;
+// border-style: solid;      
+// }
+// .u-br-lg{
+// border-width: 6px; 
+// }
+// .u-br-sm{
+// border-width: 2px;     
+// }
+
+
+// Border Utility
+
+$iota-utils-bordercolor-names: $br-colors;
+
+$iota-utils-border-radius-radius: (
+  '-x3': '3px',
+  '-x60': '60px'
+) !default;
+
+$iota-utils-border-widthx-width: (
+  '-x2': '2px',
+  '-x6': '6px'
+) !default;
+
+
+// Helper Local Variables
+
+$iota-utils-display                           : true;
+
+$iota-utils-border-namespace                  : 'bd' !default;
+$iota-utils-border-top-name                   : 't' !default;
+$iota-utils-border-right-name                 : 'r' !default;
+$iota-utils-border-bottom-name                : 'b' !default;
+$iota-utils-border-left-name                  : 'l' !default;
+$iota-utils-border-vertical-name              : 'v' !default;
+$iota-utils-border-horizontal-name            : 'h' !default;
+
+$iota-utils-bordercolor-namespace             : 'bdcolor-' !default;
+
+$iota-utils-border-radius-namespace           : 'bdr' !default;
+$iota-utils-border-top-radius-name            : 't' !default;
+$iota-utils-border-top-left-radius-name       : 'tl' !default;
+$iota-utils-border-top-right-radius-name      : 'tr' !default;
+$iota-utils-border-bottom-radius-name         : 'b' !default;
+$iota-utils-border-bottom-right-radius-name   : 'br' !default;
+$iota-utils-border-bottom-left-radius-name    : 'bl' !default;
+
+$iota-utils-border-style                      : 'solid' !default;
+$iota-utils-border-width                      : '1px' !default;
+$iota-utils-border-widthx-namespace           : 'bdw' !default;
+
+@mixin _iota-utils-border-widthx {
+  @each $name, $w in $iota-utils-border-widthx-width {
+    .#{$iota-global-utilities-namespace + $iota-utils-border-widthx-namespace + $name} {
+      border-width: #{$w};
+      border-style: solid;
+    }
+  }
+}
+
+@include _iota-utils-border-widthx;
+
+// Generate borders width
+
+// .#{$iota-global-utilities-namespace + $iota-utils-border-namespace} {
+//   border-width: #{$iota-utils-border-width};
+//   border-style: #{$iota-utils-border-style};
+// }
+
+//   @each $name, $radius in $iota-utils-border-radius-radius {
+//     .#{$iota-global-utilities-namespace + $iota-utils-border-radius-namespace + $name} {
+//       border-radius: #{$radius};
+//     }
+
+.#{$iota-global-utilities-namespace + $iota-utils-border-namespace} {
+  border-width: #{$iota-utils-border-width};
+  border-style: #{$iota-utils-border-style};
+}
+
+.#{$iota-global-utilities-namespace + $iota-utils-border-namespace + $iota-utils-border-top-name} {
+  border-width: #{$iota-utils-border-width} 0 0 0;
+  border-style: #{$iota-utils-border-style};
+}
+
+.#{$iota-global-utilities-namespace + $iota-utils-border-namespace + $iota-utils-border-right-name} {
+  border-width: 0 #{$iota-utils-border-width} 0 0;
+  border-style: #{$iota-utils-border-style};
+}
+
+.#{$iota-global-utilities-namespace + $iota-utils-border-namespace + $iota-utils-border-bottom-name} {
+  border-width: 0 0 #{$iota-utils-border-width} 0;
+  border-style: #{$iota-utils-border-style};
+}
+
+.#{$iota-global-utilities-namespace + $iota-utils-border-namespace + $iota-utils-border-left-name} {
+  border-width: 0 0 0 #{$iota-utils-border-width};
+  border-style: #{$iota-utils-border-style};
+}
+
+.#{$iota-global-utilities-namespace + $iota-utils-border-namespace + $iota-utils-border-vertical-name} {
+  border-width: #{$iota-utils-border-width} 0 #{$iota-utils-border-width} 0;
+  border-style: #{$iota-utils-border-style};
+}
+
+.#{$iota-global-utilities-namespace + $iota-utils-border-namespace + $iota-utils-border-horizontal-name} {
+  border-width: 0 #{$iota-utils-border-width} 0 #{$iota-utils-border-width};
+  border-style: #{$iota-utils-border-style};
+}
+
+// Generate border colors
+
+@mixin _iota-utils-border-colors {
+  @each $color, $value in $iota-utils-bordercolor-names {
+    .#{$iota-global-utilities-namespace + $iota-utils-bordercolor-namespace + $color} {
+      border-color: $value;
+    }
+  }
+}
+@include _iota-utils-border-colors;
+
+// Generate borders radius
+
+@mixin _iota-utils-border-radius {
+  @each $name, $radius in $iota-utils-border-radius-radius {
+    .#{$iota-global-utilities-namespace + $iota-utils-border-radius-namespace + $name} {
+      border-radius: #{$radius};
+    }
+
+    .#{$iota-global-utilities-namespace + $iota-utils-border-radius-namespace + $iota-utils-border-top-radius-name + $name} {
+      border-top-left-radius: #{$radius};
+      border-top-right-radius: #{$radius};
+    }
+
+    .#{$iota-global-utilities-namespace + $iota-utils-border-radius-namespace + $iota-utils-border-top-left-radius-name + $name} {
+      border-top-left-radius: #{$radius};
+    }
+
+    .#{$iota-global-utilities-namespace + $iota-utils-border-radius-namespace + $iota-utils-border-top-right-radius-name + $name} {
+      border-top-right-radius: #{$radius};
+    }
+
+    .#{$iota-global-utilities-namespace + $iota-utils-border-radius-namespace + $iota-utils-border-bottom-radius-name + $name} {
+      border-bottom-left-radius: #{$radius};
+      border-bottom-right-radius: #{$radius};
+    }
+
+    .#{$iota-global-utilities-namespace + $iota-utils-border-radius-namespace + $iota-utils-border-bottom-right-radius-name + $name} {
+      border-bottom-right-radius: #{$radius};
+    }
+
+    .#{$iota-global-utilities-namespace + $iota-utils-border-radius-namespace + $iota-utils-border-bottom-left-radius-name + $name} {
+      border-bottom-left-radius: #{$radius};
+    }
+  }
+}
+
+@include _iota-utils-border-radius;
