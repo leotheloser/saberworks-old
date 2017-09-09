@@ -58,7 +58,9 @@
  *
  * Type: String
  */
-@font-face {
+
+/* Local fonts */
+/* @font-face {
   font-family: "gothamrnd-bold";
   src: url("../fonts/gothamrnd-bold.eot?") format("eot"), url("../fonts/gothamrnd-bold.woff2") format("woff2"), url("../fonts/gothamrnd-bold.woff") format("woff"), url("../fonts/gothamrnd-bold.ttf") format("truetype"), url("../fonts/gothamrnd-bold.svg#gothamrnd-bold") format("svg"); }
 
@@ -73,6 +75,28 @@
 @font-face {
   font-family: "gothamrnd-light";
   src: url("../fonts/gothamrnd-light.eot?") format("eot"), url("../fonts/gothamrnd-light.woff2") format("woff2"), url("../fonts/gothamrnd-light.woff") format("woff"), url("../fonts/gothamrnd-light.ttf") format("truetype"), url("../fonts/gothamrnd-light.svg#gothamrnd-light") format("svg"); }
+ */
+
+/* CDN fonts */
+@font-face {
+    font-family: 'GothamRoundedBold';
+    src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'GothamRoundedBook';
+    src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff') format('ttf');
+}
+
+@font-face {
+    font-family: 'GothamRoundedMedium';
+    src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-medium.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.medium') format('ttf');
+}
+
+@font-face {
+    font-family: 'GothamRoundedLight';
+    src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff') format('ttf');
+}
 
 /**
  * Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files are automatically sourced.
