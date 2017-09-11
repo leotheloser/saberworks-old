@@ -16,16 +16,55 @@
     @include iota-type($type-16);
     letter-spacing: .33px;
     
-    &:hover{
-    border-bottom: 2px solid $color-green;    
-    }
-    &:focus{
-     border-bottom: 2px solid $color-green;   
-    }
+    // &:hover{
+    // border-bottom: 2px solid $color-green;    
+    // }
+    // &:focus{
+    //  border-bottom: 2px solid $color-green;   
+    // }
+      &:focus {
+    outline: none;    
+  }
 }
 
 
-    textarea.c-form{    
-        height: $baseline-x9;
-        padding-top: $baseline-x3;    
+textarea.c-form{    
+height: $baseline-x9;
+padding-top: $baseline-x3;    
+}
+
+.c-form-controll-line{
+    width: 100%;
+}
+
+    .c-input{
+    border: none;
+    border-bottom: 1px solid #ede9e9;
+    color: #555;
+    @include iota-type($type-16);        
+    padding: 20px 0px;
+    position: relative;
+    width: 100%;    
+   
+    &:focus::-webkit-input-placeholder {
+    color: $color-green;
     }
+
+}
+
+.c-input:focus+.c-form-line  {
+transform: scale(1);
+}
+
+.c-form-line {
+  background-color: $color-green;
+  display: inline-block;
+  height: 2px;
+  margin-top: -1px;
+  position: absolute;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  width: 100%;
+}
