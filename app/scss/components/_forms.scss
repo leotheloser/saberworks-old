@@ -39,6 +39,7 @@ padding-top: $baseline-x3;
 
     .c-input{
     border: none;
+    background: transparent;
     border-bottom: 1px solid #ede9e9;
     color: #555;
     @include iota-type($type-16);        

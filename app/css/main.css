@@ -3486,6 +3486,7 @@ textarea.c-form {
 
 .c-input {
   border: none;
+  background: transparent;
   border-bottom: 1px solid #ede9e9;
   color: #555;
   font-size: 16px;
@@ -3675,3 +3676,11 @@ ul li.c-nav-item {
   color: #5fcf80; }
   .c-link:hover {
     opacity: 0.8; }
+
+.c-link-nav {
+  letter-spacing: .1px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #7b8b8e; }
+  .c-link-nav:hover {
+    color: #4b5658; }

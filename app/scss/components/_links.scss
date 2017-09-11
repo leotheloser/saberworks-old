@@ -7,3 +7,16 @@
 //   transition: opacity 0.2s ease-in-out;
 }   
 }
+
+.c-link-nav{
+
+    letter-spacing: .1px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #7b8b8e;  
+
+    &:hover{
+    color: #4b5658;  
+    }
+    
+}
