@@ -97,7 +97,15 @@
     height: 260px;
 }
 .c-cover-card-large{
+    height: 480px;
+}
+
+.c-cover-card-large-post {
     height: 500px;
+    margin: 0 -6vw 0;
+    background: $bg-color-white-light 50%;
+    background-size: cover;
+    border-radius: 3px;
 }
 
     .c-cover-card-text{
