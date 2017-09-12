@@ -36,6 +36,32 @@ p{
   line-height: 20px; 
 }
 
+.article-content{
+
+ p{
+  color: $color-grey;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: $f2;
+
+  &:first-child::first-letter {
+    color: $color-black;
+    font-size: 60px;
+    font-family: $f3;
+    margin: 16px 8px 0 -4px;
+    vertical-align: top;
+    float: left;
+}
+}
+
+ h4{
+ color: $color-black;  
+ font-size: 28px; 
+ line-height: 28px;
+}
+
+}
+
 input,textarea{
  font-family: $f2;   
 }

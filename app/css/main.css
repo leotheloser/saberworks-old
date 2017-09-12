@@ -318,6 +318,24 @@ p {
   font-family: "gothamrnd-medium", sans-serif;
   line-height: 20px; }
 
+.article-content p {
+  color: #7b8b8e;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "gothamrnd-book"; }
+  .article-content p:first-child::first-letter {
+    color: #4a4a4a;
+    font-size: 60px;
+    font-family: "gothamrnd-medium";
+    margin: 16px 8px 0 -4px;
+    vertical-align: top;
+    float: left; }
+
+.article-content h4 {
+  color: #4a4a4a;
+  font-size: 28px;
+  line-height: 28px; }
+
 input, textarea {
   font-family: "gothamrnd-book"; }
 
@@ -3609,6 +3627,10 @@ textarea.c-form {
   background: #f9f9f9 50%;
   background-size: cover;
   border-radius: 3px; }
+  @media screen and (max-width: 769px) {
+    .c-cover-card-large-post {
+      margin: 0 -4vw 0;
+      border-radius: 0; } }
 
 .c-cover-card-text {
   position: absolute;
