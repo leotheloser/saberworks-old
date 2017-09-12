@@ -18,8 +18,8 @@ $color-grey-dark : rgb(90, 103, 114);
 $color-green : rgb(95, 207, 128);
 // $color-green-light
 
-$color-red : rgb(243, 86, 117);
-
+$color-red  : rgb(243, 86, 117);
+$color-blue :  rgb(86, 146, 243);
 
 $button-color: rgb(245, 245, 245);
 $button-color-ghost: rgb(236, 236, 236);
@@ -34,7 +34,8 @@ $colors: (
  'grey-light'   : $color-grey-light,
  'grey-dark'    : $color-grey-dark,
  'green'        : $color-green,
- 'red'          : $color-red
+ 'red'          : $color-red,
+ 'blue'         : $color-blue
 );
 
 $bg-colors: (

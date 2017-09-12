@@ -396,7 +396,7 @@ svg.stamp {
 .u-w-f3 {
   font-family: "gothamrnd-medium"; }
 
-span.c-field:before {
+span.c-field:before, a.c-field:before {
   border-left: 1px solid #ddd;
   content: "";
   margin-left: 10px;
@@ -927,6 +927,9 @@ textarea {
 
 .u-color-red {
   color: #f35675 !important; }
+
+.u-color-blue {
+  color: #5692f3 !important; }
 
 /**
  * Enables / Disables breakpoint specific classes
@@ -3526,6 +3529,11 @@ textarea.c-form {
       line-height: 21px; } }
   .c-input:focus::-webkit-input-placeholder {
     color: #5fcf80; }
+  .c-input.c-input-small {
+    font-size: 16px;
+    padding: 12px 0px;
+    position: relative;
+    width: 100%; }
 
 .c-input:focus + .c-form-line {
   transform: scale(1); }
@@ -3541,6 +3549,13 @@ textarea.c-form {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
   width: 100%; }
+
+.c-form-box {
+  width: 450px;
+  margin: auto; }
+  @media screen and (max-width: 769px) {
+    .c-form-box {
+      width: 100%; } }
 
 .c-overlay:before {
   content: "";
@@ -3725,3 +3740,17 @@ span.c-divider:before {
   color: #5fcf80; }
   .c-link:hover {
     opacity: 0.8; }
+
+.c-link-secondary {
+  color: #f35675; }
+  .c-link-secondary:hover {
+    opacity: 0.8; }
+
+a.c-link-facebook {
+  color: #5692f3; }
+  a.c-link-facebook:hover {
+    color: #2673f0; }
+  a.c-link-facebook svg {
+    fill: #5692f3; }
+  a.c-link-facebook:hover svg {
+    fill: #2673f0; }

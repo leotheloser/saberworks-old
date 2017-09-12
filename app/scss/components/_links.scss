@@ -8,3 +8,33 @@
 }   
 }
 
+.c-link-secondary{
+  color:  $color-red; 
+  &:hover {
+  opacity: 0.8;
+//   transition: opacity 0.2s ease-in-out;
+}   
+}
+
+
+a.c-link-facebook{
+  color:  $color-blue; 
+
+  &:hover {
+  // opacity: 0.8;
+  color: darken($color-blue, 10%);
+}
+  svg{
+  fill:  $color-blue;   
+  }
+  &:hover svg{
+  fill: darken($color-blue, 10%);
+    
+  }
+  
+  
+}
+
+
+
+

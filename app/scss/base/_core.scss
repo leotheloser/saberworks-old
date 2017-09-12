@@ -52,7 +52,7 @@ width: 100%;
  font-family: $f3;   
 }
 
- span.c-field{
+ span.c-field,a.c-field{
  
     &:before{
     border-left: 1px solid #ddd;
