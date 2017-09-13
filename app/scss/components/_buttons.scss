@@ -44,7 +44,7 @@
     &.c-button-ghost{
       background: transparent;
       border: 2px solid $button-color-ghost;
-      color: $color-black;  
+      color: $button-text-ghost;  
     }
 
     &.c-button-ghost-primary{
@@ -138,10 +138,17 @@
      }
     }
 
-button ,input[type="submit"],
-button ,input[type="reset"],
-button ,input[type="button"] {
 
+        .c-button-tag{
+    color: $button-text-ghost; 
+    border: 2px solid #eaedee;
+    border-radius: 5px;
+    padding: 24px 22px;  
+    }
+
+        button ,input[type="submit"],
+        button ,input[type="reset"],
+        button ,input[type="button"] {
         height: 2.25em;
         padding: 26px 18px;
         font-family: inherit;

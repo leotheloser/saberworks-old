@@ -323,13 +323,6 @@ p {
   font-size: 18px;
   line-height: 32px;
   font-family: "gothamrnd-book"; }
-  .article-content p:first-child::first-letter {
-    color: #4a4a4a;
-    font-size: 60px;
-    font-family: "gothamrnd-medium";
-    margin: 16px 8px 0 -4px;
-    vertical-align: top;
-    float: left; }
 
 .article-content h4 {
   color: #4a4a4a;
@@ -3400,7 +3393,7 @@ textarea {
   .c-button.c-button-ghost {
     background: transparent;
     border: 2px solid #ececec;
-    color: #4a4a4a; }
+    color: #656c72; }
   .c-button.c-button-ghost-primary {
     background: transparent;
     border: 2px solid #ececec;
@@ -3460,6 +3453,12 @@ textarea {
     background-color: #fff;
     border: 2px solid #fff;
     color: #4a4a4a; }
+
+.c-button-tag {
+  color: #656c72;
+  border: 2px solid #eaedee;
+  border-radius: 5px;
+  padding: 24px 22px; }
 
 button, input[type="submit"],
 button, input[type="reset"],
@@ -3705,6 +3704,27 @@ span.c-divider:before {
 
 .c-payment-activity .c-stripe:nth-child(odd) {
   background: #f7f7f7; }
+
+.c-list-article li.o-list__item {
+  margin-bottom: 21px;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: "gothamrnd-book";
+  color: #7b8b8e; }
+  @media screen and (max-width: 769px) {
+    .c-list-article li.o-list__item {
+      font-size: 18px;
+      line-height: 21px; } }
+  .c-list-article li.o-list__item:before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 14px;
+    background: #7b8b8e;
+    top: -4px;
+    position: relative; }
 
 .c-list-h {
   background: white;

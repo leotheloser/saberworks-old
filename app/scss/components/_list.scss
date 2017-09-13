@@ -1,4 +1,33 @@
 
+.c-list-article {
+       li.o-list__item{
+        margin-bottom: $baseline-x3;
+        @include iota-type($type-16);
+        font-family: $f2;
+        color: $color-grey;
+
+        // &:before {
+        //     content: "■";
+        //     color: $color-grey;
+        //     display: inline-block;
+        //     width: 1em;
+        //     margin-right: $baseline-x2;
+        // }
+        &:before{
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 3px;
+        display: inline-block;
+        margin-right: $baseline-x2;
+        background: $color-grey;
+        top: -4px;
+        position: relative;
+
+        }   
+    } 
+}
+
 .c-list-h{
    background: $color-white;
    box-shadow: 0px 2px 0px 0px rgba(39, 44, 49, 0.07), 0 3px 16px rgba(39, 44, 49, 0.07);
