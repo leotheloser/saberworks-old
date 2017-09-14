@@ -36,6 +36,16 @@
             border-radius: 3px; 
             }
         }
+       &.c-overlay-card-side{
+        &:before{
+        content: "";
+        border-radius: 5px 0px 0px 5px ;     
+        }
+        &:after {
+        content: "";
+        border-radius: 5px 0px 0px 5px ; 
+        }
+    }
     }
 
     .c-cover{
@@ -98,6 +108,10 @@
 }
 .c-cover-card-large{
     height: 480px;
+}
+
+.c-cover-card-side{
+    height: 460px;
 }
 
 .c-cover-card-large-post {
