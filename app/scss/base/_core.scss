@@ -2,6 +2,105 @@ html{
  background: $background-base;   
 }
 
+.u-f{
+width: 100%;
+}
+
+.u-w-f2{
+ font-family: $f2;   
+}
+
+
+.u-w-f3{
+ font-family: $f3;   
+}
+
+ .u-icon{
+ font-size: 22px;
+  transition: 0.2s ease;    
+ -webkit-transition: 0.2s ease;
+ -moz-transition: 0.2s ease;
+}
+
+ a{
+    .u-effect-left{
+    padding-left: 3px;
+    top: 1px;
+    position: relative;
+    font-size: 20px;          
+    }
+    
+    &:hover .u-effect-left{
+     margin-left: 5px;   
+    }
+
+ }
+
+
+//  .u-effect-left{
+//     padding-left: 3px;
+//   top: 1px;
+//   position: relative;
+//   font-size: 20px;    
+//  }   
+//  a:hover .u-effect-left{
+//  margin-left: 5px;
+//  }
+//  a:hover .u-effect-right{
+//  margin-right: 5px;  
+//  }
+
+
+ span.c-field,a.c-field{
+ 
+    &:before{
+    border-left: 1px solid #ddd;
+    content: "";
+    margin-left: 10px;
+    padding-left: 10px;    
+    }
+    
+ }
+
+hr {
+    background-color: #dbdbdb;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1.5rem 0;
+
+    &.u-light{
+    background-color: #ffeeee;    
+    }
+
+}
+
+input, textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    box-shadow: none;
+    max-width: 100%;
+    width: 100%;
+    
+    &:focus{
+    outline: none;    
+    }
+}
+
+input::-webkit-input-placeholder {
+  color: #AAA;
+}
+
+
+textarea{
+    height: $baseline-x9;
+    padding-top: $baseline-x3;
+    max-width: 100%;
+    min-height: 100px;  
+}
+
+
 .svg-cover{
 width: 100%;
 height: 100%;
@@ -58,64 +157,3 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
      }   
 
 
-.u-f{
-width: 100%;
-}
-
-.u-w-f2{
- font-family: $f2;   
-}
-
-
-.u-w-f3{
- font-family: $f3;   
-}
-
- span.c-field,a.c-field{
- 
-    &:before{
-    border-left: 1px solid #ddd;
-    content: "";
-    margin-left: 10px;
-    padding-left: 10px;    
-    }
-    
- }
-
-hr {
-    background-color: #dbdbdb;
-    border: none;
-    display: block;
-    height: 1px;
-    margin: 1.5rem 0;
-
-    &.u-light{
-    background-color: #ffeeee;    
-    }
-
-}
-
-input, textarea {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    border: none;
-    box-shadow: none;
-    max-width: 100%;
-    width: 100%;
-    
-    &:focus{
-    outline: none;    
-    }
-}
-
-input::-webkit-input-placeholder {
-  color: #AAA;
-}
-
-
-textarea{
-    height: $baseline-x9;
-    padding-top: $baseline-x3;
-    max-width: 100%;
-    min-height: 100px;  
-}

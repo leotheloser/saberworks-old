@@ -370,6 +370,64 @@ h4 {
 html {
   background: #fafafa; }
 
+.u-f {
+  width: 100%; }
+
+.u-w-f2 {
+  font-family: "gothamrnd-book"; }
+
+.u-w-f3 {
+  font-family: "gothamrnd-medium"; }
+
+.u-icon {
+  font-size: 22px;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease; }
+
+a .u-effect-left {
+  padding-left: 3px;
+  top: 1px;
+  position: relative;
+  font-size: 20px; }
+
+a:hover .u-effect-left {
+  margin-left: 5px; }
+
+span.c-field:before, a.c-field:before {
+  border-left: 1px solid #ddd;
+  content: "";
+  margin-left: 10px;
+  padding-left: 10px; }
+
+hr {
+  background-color: #dbdbdb;
+  border: none;
+  display: block;
+  height: 1px;
+  margin: 1.5rem 0; }
+  hr.u-light {
+    background-color: #ffeeee; }
+
+input, textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  box-shadow: none;
+  max-width: 100%;
+  width: 100%; }
+  input:focus, textarea:focus {
+    outline: none; }
+
+input::-webkit-input-placeholder {
+  color: #AAA; }
+
+textarea {
+  height: 63px;
+  padding-top: 21px;
+  max-width: 100%;
+  min-height: 100px; }
+
 .svg-cover {
   width: 100%;
   height: 100%;
@@ -411,49 +469,6 @@ svg.stamp {
     height: 11px;
     top: 5px;
     left: 12px; }
-
-.u-f {
-  width: 100%; }
-
-.u-w-f2 {
-  font-family: "gothamrnd-book"; }
-
-.u-w-f3 {
-  font-family: "gothamrnd-medium"; }
-
-span.c-field:before, a.c-field:before {
-  border-left: 1px solid #ddd;
-  content: "";
-  margin-left: 10px;
-  padding-left: 10px; }
-
-hr {
-  background-color: #dbdbdb;
-  border: none;
-  display: block;
-  height: 1px;
-  margin: 1.5rem 0; }
-  hr.u-light {
-    background-color: #ffeeee; }
-
-input, textarea {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  border: none;
-  box-shadow: none;
-  max-width: 100%;
-  width: 100%; }
-  input:focus, textarea:focus {
-    outline: none; }
-
-input::-webkit-input-placeholder {
-  color: #AAA; }
-
-textarea {
-  height: 63px;
-  padding-top: 21px;
-  max-width: 100%;
-  min-height: 100px; }
 
 /**
  * Allows you to change the default container name
