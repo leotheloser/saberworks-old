@@ -4202,7 +4202,7 @@ textarea.c-form {
       color: white; }
 
 .c-navbar.secondary {
-  background-color: #fff;
+  background: #fff;
   box-shadow: 0 0 1px rgba(0, 65, 94, 0.2); }
   .c-navbar.secondary .o-type-logo {
     color: #5fcf80; }

@@ -31,7 +31,7 @@ $c-navbar-secondary : $bg-secondary;
         }
 
         &.secondary{
-        background-color: $c-navbar-secondary;
+        background: $c-navbar-secondary;
         box-shadow: 0 0 1px rgba(0,65,94,0.2);
         
           .o-type-logo{
