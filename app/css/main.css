@@ -299,6 +299,23 @@ body {
   font-family: "gothamrnd-medium", sans-serif;
   color: #4a4a4a; }
 
+/* CDN fonts */
+@font-face {
+  font-family: 'gothamrnd-bold';
+  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'gothamrnd-book';
+  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff") format("ttf"); }
+
+@font-face {
+  font-family: 'gothamrnd-medium';
+  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-medium.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.medium") format("ttf"); }
+
+@font-face {
+  font-family: 'gothamrnd-light';
+  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff") format("ttf"); }
+
 a {
   text-decoration: none;
   color: inherit;
