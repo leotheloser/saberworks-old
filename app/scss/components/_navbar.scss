@@ -8,7 +8,8 @@ $c-navbar-secondary : $bg-secondary;
             letter-spacing: .1px;
             font-weight: 400;
             font-size: 15px;
-            color: rgba(255, 255, 255, 0.55);  
+            transition: color 200ms 0s ease;  
+            color: rgba(255, 255, 255, 0.55);
 
             &:hover{
             color: rgba(255, 255, 255, 1);   
@@ -33,11 +34,16 @@ $c-navbar-secondary : $bg-secondary;
         background-color: $c-navbar-secondary;
         box-shadow: 0 0 1px rgba(0,65,94,0.2);
         
-        
+          .o-type-logo{
+          color : $color-green;    
+          }  
+
          a{
-          color: rgb(87, 99, 102);  
+        //   color: rgb(87, 99, 102);
+          color : rgb(123, 139, 142);  
           &:hover{
-          color: rgb(52, 59, 61);     
+        //   color: rgb(52, 59, 61);   
+          color: rgb(75, 86, 88);  
           }   
          }       
         }

@@ -36,7 +36,26 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         display: inline-block;
         text-align: center;   
         }
+
     }
+
+    .logo-stamp-small{
+    height: 44px;
+    width: 44px;
+    background: #5fcf80;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;  
+    display: block;
+    
+    svg{
+        fill: #ffffff;
+    width: 7px;
+    height: 11px;
+    top: 5px;
+    left: 12px;    
+    }  
+     }   
 
 
 .u-f{

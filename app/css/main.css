@@ -380,6 +380,21 @@ svg.stamp {
   display: inline-block;
   text-align: center; }
 
+.logo-stamp-small {
+  height: 44px;
+  width: 44px;
+  background: #5fcf80;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  display: block; }
+  .logo-stamp-small svg {
+    fill: #ffffff;
+    width: 7px;
+    height: 11px;
+    top: 5px;
+    left: 12px; }
+
 .u-f {
   width: 100%; }
 
@@ -3592,9 +3607,9 @@ textarea.c-form {
   padding-bottom: 10%;
   z-index: 0;
   height: auto;
-  background: #384047 url("http://localhost:8080/venturestay-design/1.jpg");
+  background: #384047 url("../images/cover.jpg");
   background-size: cover;
-  background-position: center 69%; }
+  background-position: center 72%; }
 
 .c-cover-heading {
   z-index: 100;
@@ -3655,6 +3670,7 @@ textarea.c-form {
   letter-spacing: .1px;
   font-weight: 400;
   font-size: 15px;
+  transition: color 200ms 0s ease;
   color: rgba(255, 255, 255, 0.55); }
   .c-navbar a:hover {
     color: white; }
@@ -3671,10 +3687,12 @@ textarea.c-form {
 .c-navbar.secondary {
   background-color: #fff;
   box-shadow: 0 0 1px rgba(0, 65, 94, 0.2); }
+  .c-navbar.secondary .o-type-logo {
+    color: #5fcf80; }
   .c-navbar.secondary a {
-    color: #576366; }
+    color: #7b8b8e; }
     .c-navbar.secondary a:hover {
-      color: #343b3d; }
+      color: #4b5658; }
 
 li.c-nav-item {
   display: inline-block; }
