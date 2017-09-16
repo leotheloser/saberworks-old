@@ -2,6 +2,32 @@ html{
  background: $background-base;   
 }
 
+.app{
+border-top: 3px hsla(138, 54%, 67%, 1) solid;       
+}
+
+body.app  .b-s-x1:first-of-type{
+    z-index: 100;
+    position: relative;
+    box-shadow: none;
+    border-bottom: 1px solid #f2f2f2;    
+}
+
+.b-t-x1{
+border-top: 3px hsla(138, 54%, 67%, 1) solid;   
+}
+
+
+.b-s-x1{
+box-shadow: 1px -1px 10px 0px rgba(0,0,0,.05);
+border-bottom: 1px solid #efefef;    
+}
+
+
+.z-x100{
+ z-index: 100;
+}
+
 .u-f{
 width: 100%;
 }
@@ -9,7 +35,6 @@ width: 100%;
 .u-w-f2{
  font-family: $f2;   
 }
-
 
 .u-w-f3{
  font-family: $f3;   
@@ -29,26 +54,10 @@ width: 100%;
     position: relative;
     font-size: 20px;          
     }
-    
     &:hover .u-effect-left{
      margin-left: 5px;   
     }
-
  }
-
-
-//  .u-effect-left{
-//     padding-left: 3px;
-//   top: 1px;
-//   position: relative;
-//   font-size: 20px;    
-//  }   
-//  a:hover .u-effect-left{
-//  margin-left: 5px;
-//  }
-//  a:hover .u-effect-right{
-//  margin-right: 5px;  
-//  }
 
 
  span.c-field,a.c-field{
@@ -155,5 +164,4 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     left: 12px;    
     }  
      }   
-
 
