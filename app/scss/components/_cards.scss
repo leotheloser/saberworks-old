@@ -8,7 +8,8 @@ $iota-components-card-background        : $color-white;
 .c-card{
     padding: $card-component-padding-default;
     // box-shadow: 0px 2px 0px 0px rgba(39,44,49,.1), 0 3px 16px rgba(39,44,49,.07);
-      // box-shadow: 0px 2px 0px 0px rgba(39, 44, 49, 0.07), 0 3px 16px rgba(39,44,49,.07); 
+      // box-shadow: 0px 2px 0px 0px rgba(39, 44, 49, 0.07), 0 3px 16px rgba(39,44,49,.07);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
     background: $iota-components-card-background;
     border-radius: 3px;
 

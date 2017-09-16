@@ -7,7 +7,7 @@ $c-navbar-secondary : $bg-secondary;
             a{
             letter-spacing: .1px;
             font-weight: 400;
-            font-size: 15px;
+            font-size: 14px;
             transition: color 200ms 0s ease;  
             color: rgba(255, 255, 255, 0.55);
 
@@ -46,7 +46,7 @@ $c-navbar-secondary : $bg-secondary;
          a{
         //   color: rgb(87, 99, 102);
           color : rgb(123, 139, 142);
-          font-size: 15px;  
+          font-size: 14px;  
           &:hover{
         //   color: rgb(52, 59, 61);   
           color: rgb(75, 86, 88);  

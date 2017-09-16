@@ -992,6 +992,9 @@ svg.stamp {
 .u-color-green {
   color: #5fcf80 !important; }
 
+.u-color-green-light {
+  color: #7dd899 !important; }
+
 .u-color-red {
   color: #f35675 !important; }
 
@@ -3865,6 +3868,7 @@ svg.stamp {
 
 .c-card {
   padding: 40px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: white;
   border-radius: 3px; }
   @media screen and (max-width: 455px) {
@@ -4199,6 +4203,9 @@ textarea.c-form {
   height: 260px; }
 
 .c-cover-card-large {
+  height: 360px; }
+
+.c-cover-card-huge {
   height: 480px; }
 
 .c-cover-card-side {
@@ -4223,7 +4230,7 @@ textarea.c-form {
 .c-navbar a {
   letter-spacing: .1px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   transition: color 200ms 0s ease;
   color: rgba(255, 255, 255, 0.55); }
   .c-navbar a:hover {
@@ -4244,7 +4251,7 @@ textarea.c-form {
     color: #5fcf80; }
   .c-navbar.secondary a {
     color: #7b8b8e;
-    font-size: 15px; }
+    font-size: 14px; }
     .c-navbar.secondary a:hover {
       color: #4b5658; }
   .c-navbar.secondary span.c-divider:before {
@@ -4308,7 +4315,6 @@ textarea.c-form {
 
 .c-list-h {
   background: white;
-  box-shadow: 0px 2px 0px 0px rgba(39, 44, 49, 0.07), 0 3px 16px rgba(39, 44, 49, 0.07);
   display: flex; }
   .c-list-h a {
     color: #7b8b8e;
@@ -4318,7 +4324,7 @@ textarea.c-form {
     .c-list-h a.o-active {
       color: white; }
       .c-list-h a.o-active li.o-list__item {
-        background: #5fcf80; }
+        background: #7dd899; }
     .c-list-h a li.o-list__item {
       display: inline-block;
       vertical-align: top;
@@ -4330,11 +4336,26 @@ textarea.c-form {
         display: block;
         text-align: center; }
 
-.c-list-v li.o-list__item {
-  display: inline-block;
-  vertical-align: top; }
-  .c-list-v li.o-list__item:not(:last-child) {
-    margin-right: 7px; }
+.c-list-v {
+  display: block; }
+  .c-list-v a {
+    color: #7b8b8e;
+    font-size: 13px; }
+    .c-list-v a li.o-list__item {
+      display: block; }
+      .c-list-v a li.o-list__item:hover {
+        background: #f7f7f7; }
+    .c-list-v a.o-active {
+      color: white; }
+      .c-list-v a.o-active li.o-list__item {
+        background: #7dd899; }
+    .c-list-v a li.o-list__item {
+      display: flex;
+      padding: 21px;
+      background: white;
+      line-height: 26px; }
+      .c-list-v a li.o-list__item i {
+        padding-right: 10px; }
 
 .c-link {
   color: #5fcf80; }

@@ -17,6 +17,7 @@ $color-grey-light : rgb(183, 192, 199);
 $color-grey-dark : rgb(90, 103, 114);
 
 $color-green : rgb(95, 207, 128);
+$color-green-light : #7dd899;
 // $color-green-light
 
 $color-red  : rgb(243, 86, 117);
@@ -36,6 +37,7 @@ $colors: (
  'grey-light'   : $color-grey-light,
  'grey-dark'    : $color-grey-dark,
  'green'        : $color-green,
+ 'green-light'  : $color-green-light,
  'red'          : $color-red,
  'blue'         : $color-blue
 );

@@ -30,7 +30,7 @@
 
 .c-list-h{
    background: $color-white;
-   box-shadow: 0px 2px 0px 0px rgba(39, 44, 49, 0.07), 0 3px 16px rgba(39, 44, 49, 0.07);
+// box-shadow: 0px 2px 0px 0px rgba(39, 44, 49, 0.07), 0 3px 16px rgba(39, 44, 49, 0.07);
    display: flex;
 
    a{
@@ -46,7 +46,7 @@
     &.o-active{
     color : $color-white;
     li.o-list__item{
-    background: $color-green;    
+    background: $color-green-light;    
     }
    }
 
@@ -74,15 +74,44 @@
 }
 
 .c-list-v{
+    display: block;
+
    
-   li.o-list__item{
-   display: inline-block;
-   vertical-align: top;
-   
-   &:not(:last-child) {
-    margin-right: $baseline;
-   } 
+    a{
+    color : $color-grey;
+    font-size: 13px;   
+
+    li.o-list__item{
+    display: block;
+        &:hover{
+         background: $bg-color-grey-light; 
+        }   
+    }
+
+    &.o-active{
+    color : $color-white;
+    li.o-list__item{
+    background: $color-green-light;    
+    }
    }
+
+   li.o-list__item{
+   display: flex;
+   padding: $baseline-x3;
+   background: $color-white;
+   line-height: 26px;
+//    &:not(:last-child) {
+//     margin-right: $baseline;
+//    } 
+
+   i{
+    padding-right: 10px;
+   }
+    
+   }
+
+   }
+
 
 }
     
