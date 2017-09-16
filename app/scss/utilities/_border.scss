@@ -31,8 +31,8 @@ $iota-utils-border-radius-radius: (
 ) !default;
 
 $iota-utils-border-widthx-width: (
-  '-x2': '2px',
-  '-x6': '6px'
+  '-x2': '2px !important',
+  '-x6': '6px !important'
 ) !default;
 
 
@@ -58,15 +58,15 @@ $iota-utils-border-bottom-radius-name         : 'b' !default;
 $iota-utils-border-bottom-right-radius-name   : 'br' !default;
 $iota-utils-border-bottom-left-radius-name    : 'bl' !default;
 
-$iota-utils-border-style                      : 'solid' !default;
-$iota-utils-border-width                      : '1px' !default;
+$iota-utils-border-style                      : 'solid ' !default;
+$iota-utils-border-width                      : '1px !important' !default;
 $iota-utils-border-widthx-namespace           : 'bdw' !default;
 
 @mixin _iota-utils-border-widthx {
   @each $name, $w in $iota-utils-border-widthx-width {
     .#{$iota-global-utilities-namespace + $iota-utils-border-widthx-namespace + $name} {
-      border-width: #{$w};
-      border-style: solid;
+      border-width: #{$w} ;
+      border-style: solid ;
     }
   }
 }

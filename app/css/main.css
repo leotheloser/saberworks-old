@@ -370,8 +370,8 @@ h4 {
 html {
   background: #fafafa; }
 
-.app {
-  border-top: 3px #7dd899 solid; }
+html body.app {
+  background: #f2f5f7; }
 
 body.app .b-s-x1:first-of-type {
   z-index: 100;
@@ -385,6 +385,9 @@ body.app .b-s-x1:first-of-type {
 .b-s-x1 {
   box-shadow: 1px -1px 10px 0px rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid #efefef; }
+
+.b-s-x2 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 
 .z-x100 {
   z-index: 100; }
@@ -3744,40 +3747,40 @@ svg.stamp {
  * Type: String
  */
 .u-bdw-x2 {
-  border-width: 2px;
+  border-width: 2px !important;
   border-style: solid; }
 
 .u-bdw-x6 {
-  border-width: 6px;
+  border-width: 6px !important;
   border-style: solid; }
 
 .u-bd {
-  border-width: 1px;
-  border-style: solid; }
+  border-width: 1px !important;
+  border-style: solid ; }
 
 .u-bdt {
-  border-width: 1px 0 0 0;
-  border-style: solid; }
+  border-width: 1px !important 0 0 0;
+  border-style: solid ; }
 
 .u-bdr {
-  border-width: 0 1px 0 0;
-  border-style: solid; }
+  border-width: 0 1px !important 0 0;
+  border-style: solid ; }
 
 .u-bdb {
-  border-width: 0 0 1px 0;
-  border-style: solid; }
+  border-width: 0 0 1px !important 0;
+  border-style: solid ; }
 
 .u-bdl {
-  border-width: 0 0 0 1px;
-  border-style: solid; }
+  border-width: 0 0 0 1px !important;
+  border-style: solid ; }
 
 .u-bdv {
-  border-width: 1px 0 1px 0;
-  border-style: solid; }
+  border-width: 1px !important 0 1px !important 0;
+  border-style: solid ; }
 
 .u-bdh {
-  border-width: 0 1px 0 1px;
-  border-style: solid; }
+  border-width: 0 1px !important 0 1px !important;
+  border-style: solid ; }
 
 .u-bdcolor-white {
   border-color: white; }
@@ -3862,8 +3865,8 @@ svg.stamp {
 
 .c-card {
   padding: 40px 40px;
-  box-shadow: 0px 2px 0px 0px rgba(39, 44, 49, 0.07), 0 3px 16px rgba(39, 44, 49, 0.07);
-  background: white; }
+  background: white;
+  border-radius: 3px; }
   @media screen and (max-width: 455px) {
     .c-card {
       padding: 20px 20px; } }

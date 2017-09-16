@@ -2,9 +2,13 @@ html{
  background: $background-base;   
 }
 
-.app{
-border-top: 3px hsla(138, 54%, 67%, 1) solid;       
+html body.app{
+ background: $app-base;   
 }
+
+// .app{
+// border-top: 3px hsla(138, 54%, 67%, 1) solid;       
+// }
 
 body.app  .b-s-x1:first-of-type{
     z-index: 100;
@@ -23,6 +27,9 @@ box-shadow: 1px -1px 10px 0px rgba(0,0,0,.05);
 border-bottom: 1px solid #efefef;    
 }
 
+.b-s-x2{
+box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
 
 .z-x100{
  z-index: 100;
