@@ -22,8 +22,8 @@ $c-navbar-secondary : $bg-secondary;
 
         &.primary{
         background: $c-navbar-primary;
-        box-shadow: none;
-        border: none;
+        // box-shadow: none;
+        // border: none;
 
          a{
           color: rgba(255, 255, 255, 0.55);  

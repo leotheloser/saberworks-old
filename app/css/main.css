@@ -4237,9 +4237,7 @@ textarea.c-form {
     color: white; }
 
 .c-navbar.primary {
-  background: #3e474f;
-  box-shadow: none;
-  border: none; }
+  background: #3e474f; }
   .c-navbar.primary a {
     color: rgba(255, 255, 255, 0.55); }
     .c-navbar.primary a:hover {
