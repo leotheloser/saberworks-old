@@ -3,7 +3,7 @@ html{
 }
 
 html body.app{
- background: $app-base;   
+ background: $app-base-x1;   
 }
 
 // .app{
@@ -29,6 +29,13 @@ border-bottom: 1px solid #efefef;
 
 .b-s-x2{
 box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.u-sticky {
+    clear: both;
+    position: -webkit-sticky;
+    position: sticky;
+    top: $baseline-x3;
 }
 
 .z-x100{

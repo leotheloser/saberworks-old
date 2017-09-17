@@ -371,7 +371,7 @@ html {
   background: #fafafa; }
 
 html body.app {
-  background: #f2f5f7; }
+  background: #f8f8f8; }
 
 body.app .b-s-x1:first-of-type {
   z-index: 100;
@@ -388,6 +388,12 @@ body.app .b-s-x1:first-of-type {
 
 .b-s-x2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+
+.u-sticky {
+  clear: both;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 21px; }
 
 .z-x100 {
   z-index: 100; }
