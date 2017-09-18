@@ -4406,6 +4406,37 @@ a.slide:hover:after {
       .c-list-v a li.o-list__item i {
         padding-right: 10px; }
 
+.c-list-v-x1 {
+  display: block; }
+  .c-list-v-x1 a {
+    color: #7b8b8e;
+    font-size: 14px; }
+    .c-list-v-x1 a:hover {
+      color: #676767; }
+    .c-list-v-x1 a li.o-list__item {
+      display: block; }
+      .c-list-v-x1 a li.o-list__item:hover {
+        background: #f2f0f0;
+        border-radius: 3px; }
+    .c-list-v-x1 a.o-active {
+      color: white; }
+      .c-list-v-x1 a.o-active li.o-list__item {
+        background: #7dd899;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 3px; }
+    .c-list-v-x1 a li.o-list__item {
+      display: flex;
+      padding: 21px;
+      line-height: 26px;
+      margin-bottom: 10px; }
+      .c-list-v-x1 a li.o-list__item i {
+        padding-right: 10px; }
+
+.c-link-primary {
+  color: #b7c0c7; }
+  .c-link-primary:hover {
+    color: #4a4a4a; }
+
 .c-link {
   color: #5fcf80; }
   .c-link:hover {

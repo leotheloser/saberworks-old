@@ -1,4 +1,11 @@
 
+.c-link-primary{
+  color:  $color-grey-light; 
+  &:hover {
+  color: $color-black;
+//   transition: opacity 0.2s ease-in-out;
+}   
+}
 
 .c-link{
   color:  $color-green; 
