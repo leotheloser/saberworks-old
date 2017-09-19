@@ -1,4 +1,46 @@
 
+.c-overlay-top{
+
+        &:before{
+        content: "";
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: -webkit-linear-gradient(left, #0B1523, #0b1523 40%, rgba(11,21,35,0));
+        background-image: linear-gradient(to right, #0B1523, #0b1523 40%, rgba(11,21,35,0));
+        z-index: 0;   
+        }    
+}
+.c-overlay-bottom{
+        &:after {
+        content: "";
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: -webkit-linear-gradient(rgba(12,23,36,0), rgba(12,23,36,0) 60%, #0C1724);
+        background-image: linear-gradient(rgba(12,23,36,0), rgba(12,23,36,0) 60%, #0C1724);
+        }
+}
+
+
+.c-overlay-round{
+    &:before{
+    content: "";
+    border-radius: 3px;     
+    }
+    &:after {
+    content: "";
+    border-radius: 3px; 
+    }
+}
+
+
     .c-overlay{
 
         &:before{
@@ -95,7 +137,6 @@
     background-position: 50% 50%;
     padding: 8% 0px;
     padding-bottom: 10%;
-    border-radius: 3px;
     background-size: cover;   
 
 }
@@ -115,7 +156,11 @@
     height: 480px;
 }
 
-.c-cover-card-listing{
+.c-cover-card-listing-x1{
+    height: 320px;
+}
+
+.c-cover-card-listing-x2{
     height: 580px;
 }
 
@@ -141,4 +186,10 @@
     position: absolute;
     bottom: 0;
     padding-right: 21px;    
+    }
+
+    .c-cover-card-text-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
     }

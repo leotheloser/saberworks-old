@@ -57,6 +57,9 @@ box-shadow: 0 2px 4px rgba(0,0,0,.1);
 width: 100%;
 }
 
+.u-vh{
+height: 100%;
+}
 
 .u-w-f1{
  font-family: $f1;   
@@ -90,7 +93,7 @@ width: 100%;
  }
 
 
- span.c-field,a.c-field{
+ .c-field{
  
     &:before{
     border-left: 1px solid #ddd;
