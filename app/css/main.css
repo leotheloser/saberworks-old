@@ -383,8 +383,7 @@ body.app .b-s-x1:first-of-type {
   border-top: 3px #7dd899 solid; }
 
 .b-s-x1 {
-  box-shadow: 1px -1px 10px 0px rgba(0, 0, 0, 0.05);
-  border-bottom: 1px solid #efefef; }
+  box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.07); }
 
 .b-s-x2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
@@ -4411,6 +4410,9 @@ ul a.c-slide:hover::after {
 .c-list-h {
   background: white;
   display: flex; }
+  .c-list-h span {
+    font-size: 13px;
+    line-height: 18px; }
   .c-list-h a {
     color: #7b8b8e;
     font-size: 13px; }
