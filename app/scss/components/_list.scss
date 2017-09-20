@@ -157,7 +157,7 @@ ul a.c-slide:hover::after {
     
 .c-list-v-x1{
     display: block;
-
+    width: 260px;
    
     a{
     color : $color-grey;
@@ -193,6 +193,7 @@ ul a.c-slide:hover::after {
    padding: $baseline-x3;
    line-height: 26px;
    margin-bottom: 10px;
+   padding: 14px 10px;
         i{
             padding-right: 10px;
         }

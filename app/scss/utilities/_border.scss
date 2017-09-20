@@ -25,6 +25,7 @@
 $iota-utils-bordercolor-names: $br-colors;
 
 $iota-utils-border-radius-radius: (
+  '-x':  '0px !important',
   '-x3': '3px !important',
   '-x5': '5px !important',
   '-x60': '60px'

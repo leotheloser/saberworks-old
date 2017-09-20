@@ -982,6 +982,9 @@ svg.stamp {
 .u-bgcolor-green-light {
   background-color: #7dd899 !important; }
 
+.u-bgcolor-red {
+  background-color: #f35675 !important; }
+
 /**
  * Namespace classes
  *
@@ -3828,6 +3831,29 @@ svg.stamp {
 .u-bdcolor-grey-dark {
   border-color: #ebebeb; }
 
+.u-bdr-x {
+  border-radius: 0px !important; }
+
+.u-bdrt-x {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important; }
+
+.u-bdrtl-x {
+  border-top-left-radius: 0px !important; }
+
+.u-bdrtr-x {
+  border-top-right-radius: 0px !important; }
+
+.u-bdrb-x {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important; }
+
+.u-bdrbr-x {
+  border-bottom-right-radius: 0px !important; }
+
+.u-bdrbl-x {
+  border-bottom-left-radius: 0px !important; }
+
 .u-bdr-x3 {
   border-radius: 3px !important; }
 
@@ -4455,7 +4481,8 @@ ul a.c-slide:hover::after {
         padding-right: 10px; }
 
 .c-list-v-x1 {
-  display: block; }
+  display: block;
+  width: 260px; }
   .c-list-v-x1 a {
     color: #7b8b8e;
     font-size: 14px; }
@@ -4476,7 +4503,8 @@ ul a.c-slide:hover::after {
       display: flex;
       padding: 21px;
       line-height: 26px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      padding: 14px 10px; }
       .c-list-v-x1 a li.o-list__item i {
         padding-right: 10px; }
 
