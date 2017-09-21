@@ -4533,7 +4533,7 @@ a.c-link-facebook {
     fill: #2673f0; }
 
 .c-loader-overlay {
-  z-index: 100;
+  z-index: 1001;
   display: none;
   position: fixed;
   width: 100%;
