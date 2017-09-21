@@ -4533,12 +4533,12 @@ a.c-link-facebook {
     fill: #2673f0; }
 
 .c-loader-overlay {
+  z-index: 100;
   display: none;
   position: fixed;
   width: 100%;
   height: 100%;
-  padding: 2em;
-  z-index: 100; }
+  padding: 2em; }
 
 .c-loader-processing, .c-loader-loading {
   display: -webkit-box;
