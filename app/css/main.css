@@ -273,7 +273,8 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-  transition: color 100ms 0s ease; }
+  transition: color 100ms 0s ease;
+  cursor: pointer; }
 
 span {
   font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
@@ -344,14 +345,14 @@ body.app .b-s-x1:first-of-type {
 
 .u-st {
   clear: both;
-  position: -webkit-sticky;
-  position: sticky;
+  position: -webkit-sticky !important;
+  position: sticky !important;
   top: 0; }
 
 .u-st-x3 {
   clear: both;
-  position: -webkit-sticky;
-  position: sticky;
+  position: -webkit-sticky !important;
+  position: sticky !important;
   top: 21px; }
 
 .z-x100 {
@@ -4132,6 +4133,30 @@ textarea.c-form {
     .c-form-box {
       width: 100%; } }
 
+.c-dropdown {
+  border: 1px solid #ebebeb;
+  box-shadow: none;
+  font-size: 16px;
+  height: 54px;
+  background: #fff;
+  width: 100%;
+  border-radius: 2px; }
+
+.c-file-button {
+  position: relative;
+  overflow: hidden; }
+
+.c-file-button input.c-file-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
 .c-overlay-top:before {
   content: "";
   opacity: 0.5;
@@ -4568,3 +4593,10 @@ a.c-link-facebook {
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
+.c-flash-card {
+  display: block;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  background-color: #f35675; }
