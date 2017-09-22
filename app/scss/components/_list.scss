@@ -3,6 +3,7 @@
        li.o-list__item{
         margin-bottom: $baseline-x3;
         @include iota-type($type-16);
+        font-family: $f2;
         color: $color-grey;
 
         // &:before {

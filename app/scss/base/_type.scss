@@ -3,34 +3,31 @@ html{
     font-size: 14px;
 }
 body {
-font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
-font-style: normal;
-font-weight: 500;
-  
+  font-family: $f3, sans-serif;
 //   @include iota-type($type-20);
      color: $color-black;
 } 
 
 /* CDN fonts */
-// @font-face {
-//   font-family: 'gothamrnd-bold';
-//   src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.ttf') format('ttf');
-// }
+@font-face {
+  font-family: 'gothamrnd-bold';
+  src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.ttf') format('ttf');
+}
 
-// @font-face {
-//   font-family: 'gothamrnd-book';
-//   src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff') format('ttf');
-// }
+@font-face {
+  font-family: 'gothamrnd-book';
+  src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff') format('ttf');
+}
 
-// @font-face {
-//   font-family: 'gothamrnd-medium';
-//   src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-medium.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.medium') format('ttf');
-// }
+@font-face {
+  font-family: 'gothamrnd-medium';
+  src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-medium.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.medium') format('ttf');
+}
 
-// @font-face {
-//   font-family: 'gothamrnd-light';
-//   src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff') format('ttf');
-// }
+@font-face {
+  font-family: 'gothamrnd-light';
+  src: url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff') format('woff'), url('https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff') format('ttf');
+}
 
 a { 
   text-decoration: none;
@@ -40,19 +37,20 @@ a {
 }
 
 span{
-     font-family: $f1;
+     font-family: $f3, sans-serif;
      font-size: 16px;
-     font-weight: 500;
+     font-weight: normal;
      
 }
 
 .u-light{
-  font-weight: 400;
+font-family: $f2, sans-serif;
 }
 
 p{
   font-size: 13px;
   font-weight: 400;
+  font-family: $f3, sans-serif;
   line-height: 20px; 
 }
 
@@ -62,7 +60,7 @@ p{
   color: $color-grey;
   font-size: 18px;
   line-height: 32px;
-  font-weight: 400;
+  font-family: $f2;
 
 //   &:first-child::first-letter {
 //     color: $color-black;
@@ -83,18 +81,17 @@ p{
 }
 
 input,textarea{
- font-family: $f1;
- font-weight: 500;   
+ font-family: $f2;   
 }
 
 h1{
   font-size: 34px;
-  font-family: $f1;
-  font-weight: 500; 
+  font-family: $f3;
+  font-weight: normal; 
 }
 
 h2 {
-  font-family: $f1;
+  font-family: $f3;
   font-weight: normal;
   @include iota-type(
     (
@@ -107,5 +104,5 @@ h2 {
 
 
 h4{
-font-weight: 500;
+font-weight: normal;
 }

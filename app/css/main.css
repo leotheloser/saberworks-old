@@ -58,6 +58,22 @@
  *
  * Type: String
  */
+@font-face {
+  font-family: "gothamrnd-bold";
+  src: url("../fonts/gothamrnd-bold.eot?") format("eot"), url("../fonts/gothamrnd-bold.woff2") format("woff2"), url("../fonts/gothamrnd-bold.woff") format("woff"), url("../fonts/gothamrnd-bold.ttf") format("truetype"), url("../fonts/gothamrnd-bold.svg#gothamrnd-bold") format("svg"); }
+
+@font-face {
+  font-family: "gothamrnd-book";
+  src: url("../fonts/gothamrnd-book.eot?") format("eot"), url("../fonts/gothamrnd-book.woff2") format("woff2"), url("../fonts/gothamrnd-book.woff") format("woff"), url("../fonts/gothamrnd-book.ttf") format("truetype"), url("../fonts/gothamrnd-book.svg#gothamrnd-book") format("svg"); }
+
+@font-face {
+  font-family: "gothamrnd-medium";
+  src: url("../fonts/gothamrnd-medium.eot?") format("eot"), url("../fonts/gothamrnd-medium.woff2") format("woff2"), url("../fonts/gothamrnd-medium.woff") format("woff"), url("../fonts/gothamrnd-medium.ttf") format("truetype"), url("../fonts/gothamrnd-medium.svg#gothamrnd-medium") format("svg"); }
+
+@font-face {
+  font-family: "gothamrnd-light";
+  src: url("../fonts/gothamrnd-light.eot?") format("eot"), url("../fonts/gothamrnd-light.woff2") format("woff2"), url("../fonts/gothamrnd-light.woff") format("woff"), url("../fonts/gothamrnd-light.ttf") format("truetype"), url("../fonts/gothamrnd-light.svg#gothamrnd-light") format("svg"); }
+
 /**
  * Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files are automatically sourced.
  *
@@ -78,6 +94,22 @@
  *
  * Type: Setting / font - normal and 500
  */
+@font-face {
+  font-family: "gothamrnd-bold";
+  src: url("../fonts/gothamrnd-bold.eot?") format("eot"), url("../fonts/gothamrnd-bold.woff2") format("woff2"), url("../fonts/gothamrnd-bold.woff") format("woff"), url("../fonts/gothamrnd-bold.ttf") format("truetype"), url("../fonts/gothamrnd-bold.svg#gothamrnd-bold") format("svg"); }
+
+@font-face {
+  font-family: "gothamrnd-book";
+  src: url("../fonts/gothamrnd-book.eot?") format("eot"), url("../fonts/gothamrnd-book.woff2") format("woff2"), url("../fonts/gothamrnd-book.woff") format("woff"), url("../fonts/gothamrnd-book.ttf") format("truetype"), url("../fonts/gothamrnd-book.svg#gothamrnd-book") format("svg"); }
+
+@font-face {
+  font-family: "gothamrnd-medium";
+  src: url("../fonts/gothamrnd-medium.eot?") format("eot"), url("../fonts/gothamrnd-medium.woff2") format("woff2"), url("../fonts/gothamrnd-medium.woff") format("woff"), url("../fonts/gothamrnd-medium.ttf") format("truetype"), url("../fonts/gothamrnd-medium.svg#gothamrnd-medium") format("svg"); }
+
+@font-face {
+  font-family: "gothamrnd-light";
+  src: url("../fonts/gothamrnd-light.eot?") format("eot"), url("../fonts/gothamrnd-light.woff2") format("woff2"), url("../fonts/gothamrnd-light.woff") format("woff"), url("../fonts/gothamrnd-light.ttf") format("truetype"), url("../fonts/gothamrnd-light.svg#gothamrnd-light") format("svg"); }
+
 /**
  * Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files are automatically sourced.
  *
@@ -264,12 +296,26 @@ html {
   font-size: 14px; }
 
 body {
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
-  font-style: normal;
-  font-weight: 500;
+  font-family: "gothamrnd-medium", sans-serif;
   color: #4a4a4a; }
 
 /* CDN fonts */
+@font-face {
+  font-family: 'gothamrnd-bold';
+  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'gothamrnd-book';
+  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff") format("ttf"); }
+
+@font-face {
+  font-family: 'gothamrnd-medium';
+  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-medium.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.medium") format("ttf"); }
+
+@font-face {
+  font-family: 'gothamrnd-light';
+  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff") format("ttf"); }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -277,23 +323,24 @@ a {
   cursor: pointer; }
 
 span {
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+  font-family: "gothamrnd-medium", sans-serif;
   font-size: 16px;
-  font-weight: 500; }
+  font-weight: normal; }
 
 .u-light {
-  font-weight: 400; }
+  font-family: "gothamrnd-book", sans-serif; }
 
 p {
   font-size: 13px;
   font-weight: 400;
+  font-family: "gothamrnd-medium", sans-serif;
   line-height: 20px; }
 
 .article-content p {
   color: #7b8b8e;
   font-size: 18px;
   line-height: 32px;
-  font-weight: 400; }
+  font-family: "gothamrnd-book"; }
 
 .article-content h4 {
   color: #4a4a4a;
@@ -301,16 +348,15 @@ p {
   line-height: 28px; }
 
 input, textarea {
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
-  font-weight: 500; }
+  font-family: "gothamrnd-book"; }
 
 h1 {
   font-size: 34px;
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
-  font-weight: 500; }
+  font-family: "gothamrnd-medium";
+  font-weight: normal; }
 
 h2 {
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+  font-family: "gothamrnd-medium";
   font-weight: normal;
   font-size: 24px;
   line-height: 24px; }
@@ -320,7 +366,7 @@ h2 {
       line-height: 20px; } }
 
 h4 {
-  font-weight: 500; }
+  font-weight: normal; }
 
 html {
   background: #fafafa; }
@@ -368,16 +414,13 @@ body.app .b-s-x1:first-of-type {
   height: 100%; }
 
 .u-w-f1 {
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
-  font-weight: 600; }
+  font-family: "gothamrnd-bold"; }
 
 .u-w-f2 {
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
-  font-weight: 500; }
+  font-family: "gothamrnd-book"; }
 
 .u-w-f3 {
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
-  font-weight: 400; }
+  font-family: "gothamrnd-medium"; }
 
 .u-icon {
   font-size: 22px;
@@ -4309,7 +4352,7 @@ textarea.c-form {
 
 .c-navbar a {
   letter-spacing: .1px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
   transition: color 200ms 0s ease;
   color: rgba(255, 255, 255, 0.55); }
@@ -4374,6 +4417,7 @@ textarea.c-form {
   margin-bottom: 21px;
   font-size: 16px;
   line-height: 21px;
+  font-family: "gothamrnd-book";
   color: #7b8b8e; }
   @media screen and (max-width: 769px) {
     .c-list-article li.o-list__item {
