@@ -70,10 +70,6 @@
   font-family: "gothamrnd-medium";
   src: url("../assets/fonts/gothamrnd-medium.eot?") format("eot"), url("../assets/fonts/gothamrnd-medium.woff") format("woff"), url("../assets/fonts/gothamrnd-medium.ttf") format("truetype"), url("../assets/fonts/gothamrnd-medium.svg#gothamrnd-medium") format("svg"); }
 
-@font-face {
-  font-family: "gothamrnd-light";
-  src: url("../assets/fonts/gothamrnd-light.eot?") format("eot"), url("../assets/fonts/gothamrnd-light.woff") format("woff"), url("../assets/fonts/gothamrnd-light.ttf") format("truetype"), url("../assets/fonts/gothamrnd-light.svg#gothamrnd-light") format("svg"); }
-
 /**
  * Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files are automatically sourced.
  *
@@ -105,10 +101,6 @@
 @font-face {
   font-family: "gothamrnd-medium";
   src: url("../assets/fonts/gothamrnd-medium.eot?") format("eot"), url("../assets/fonts/gothamrnd-medium.woff") format("woff"), url("../assets/fonts/gothamrnd-medium.ttf") format("truetype"), url("../assets/fonts/gothamrnd-medium.svg#gothamrnd-medium") format("svg"); }
-
-@font-face {
-  font-family: "gothamrnd-light";
-  src: url("../assets/fonts/gothamrnd-light.eot?") format("eot"), url("../assets/fonts/gothamrnd-light.woff") format("woff"), url("../assets/fonts/gothamrnd-light.ttf") format("truetype"), url("../assets/fonts/gothamrnd-light.svg#gothamrnd-light") format("svg"); }
 
 /**
  * Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files are automatically sourced.
