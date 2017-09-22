@@ -60,19 +60,19 @@
  */
 @font-face {
   font-family: "gothamrnd-bold";
-  src: url("../fonts/gothamrnd-bold.eot?") format("eot"), url("../fonts/gothamrnd-bold.woff2") format("woff2"), url("../fonts/gothamrnd-bold.woff") format("woff"), url("../fonts/gothamrnd-bold.ttf") format("truetype"), url("../fonts/gothamrnd-bold.svg#gothamrnd-bold") format("svg"); }
+  src: url("../assets/fonts/gothamrnd-bold.eot?") format("eot"), url("../assets/fonts/gothamrnd-bold.woff") format("woff"), url("../assets/fonts/gothamrnd-bold.ttf") format("truetype"), url("../assets/fonts/gothamrnd-bold.svg#gothamrnd-bold") format("svg"); }
 
 @font-face {
   font-family: "gothamrnd-book";
-  src: url("../fonts/gothamrnd-book.eot?") format("eot"), url("../fonts/gothamrnd-book.woff2") format("woff2"), url("../fonts/gothamrnd-book.woff") format("woff"), url("../fonts/gothamrnd-book.ttf") format("truetype"), url("../fonts/gothamrnd-book.svg#gothamrnd-book") format("svg"); }
+  src: url("../assets/fonts/gothamrnd-book.eot?") format("eot"), url("../assets/fonts/gothamrnd-book.woff") format("woff"), url("../assets/fonts/gothamrnd-book.ttf") format("truetype"), url("../assets/fonts/gothamrnd-book.svg#gothamrnd-book") format("svg"); }
 
 @font-face {
   font-family: "gothamrnd-medium";
-  src: url("../fonts/gothamrnd-medium.eot?") format("eot"), url("../fonts/gothamrnd-medium.woff2") format("woff2"), url("../fonts/gothamrnd-medium.woff") format("woff"), url("../fonts/gothamrnd-medium.ttf") format("truetype"), url("../fonts/gothamrnd-medium.svg#gothamrnd-medium") format("svg"); }
+  src: url("../assets/fonts/gothamrnd-medium.eot?") format("eot"), url("../assets/fonts/gothamrnd-medium.woff") format("woff"), url("../assets/fonts/gothamrnd-medium.ttf") format("truetype"), url("../assets/fonts/gothamrnd-medium.svg#gothamrnd-medium") format("svg"); }
 
 @font-face {
   font-family: "gothamrnd-light";
-  src: url("../fonts/gothamrnd-light.eot?") format("eot"), url("../fonts/gothamrnd-light.woff2") format("woff2"), url("../fonts/gothamrnd-light.woff") format("woff"), url("../fonts/gothamrnd-light.ttf") format("truetype"), url("../fonts/gothamrnd-light.svg#gothamrnd-light") format("svg"); }
+  src: url("../assets/fonts/gothamrnd-light.eot?") format("eot"), url("../assets/fonts/gothamrnd-light.woff") format("woff"), url("../assets/fonts/gothamrnd-light.ttf") format("truetype"), url("../assets/fonts/gothamrnd-light.svg#gothamrnd-light") format("svg"); }
 
 /**
  * Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files are automatically sourced.
@@ -96,19 +96,19 @@
  */
 @font-face {
   font-family: "gothamrnd-bold";
-  src: url("../fonts/gothamrnd-bold.eot?") format("eot"), url("../fonts/gothamrnd-bold.woff2") format("woff2"), url("../fonts/gothamrnd-bold.woff") format("woff"), url("../fonts/gothamrnd-bold.ttf") format("truetype"), url("../fonts/gothamrnd-bold.svg#gothamrnd-bold") format("svg"); }
+  src: url("../assets/fonts/gothamrnd-bold.eot?") format("eot"), url("../assets/fonts/gothamrnd-bold.woff") format("woff"), url("../assets/fonts/gothamrnd-bold.ttf") format("truetype"), url("../assets/fonts/gothamrnd-bold.svg#gothamrnd-bold") format("svg"); }
 
 @font-face {
   font-family: "gothamrnd-book";
-  src: url("../fonts/gothamrnd-book.eot?") format("eot"), url("../fonts/gothamrnd-book.woff2") format("woff2"), url("../fonts/gothamrnd-book.woff") format("woff"), url("../fonts/gothamrnd-book.ttf") format("truetype"), url("../fonts/gothamrnd-book.svg#gothamrnd-book") format("svg"); }
+  src: url("../assets/fonts/gothamrnd-book.eot?") format("eot"), url("../assets/fonts/gothamrnd-book.woff") format("woff"), url("../assets/fonts/gothamrnd-book.ttf") format("truetype"), url("../assets/fonts/gothamrnd-book.svg#gothamrnd-book") format("svg"); }
 
 @font-face {
   font-family: "gothamrnd-medium";
-  src: url("../fonts/gothamrnd-medium.eot?") format("eot"), url("../fonts/gothamrnd-medium.woff2") format("woff2"), url("../fonts/gothamrnd-medium.woff") format("woff"), url("../fonts/gothamrnd-medium.ttf") format("truetype"), url("../fonts/gothamrnd-medium.svg#gothamrnd-medium") format("svg"); }
+  src: url("../assets/fonts/gothamrnd-medium.eot?") format("eot"), url("../assets/fonts/gothamrnd-medium.woff") format("woff"), url("../assets/fonts/gothamrnd-medium.ttf") format("truetype"), url("../assets/fonts/gothamrnd-medium.svg#gothamrnd-medium") format("svg"); }
 
 @font-face {
   font-family: "gothamrnd-light";
-  src: url("../fonts/gothamrnd-light.eot?") format("eot"), url("../fonts/gothamrnd-light.woff2") format("woff2"), url("../fonts/gothamrnd-light.woff") format("woff"), url("../fonts/gothamrnd-light.ttf") format("truetype"), url("../fonts/gothamrnd-light.svg#gothamrnd-light") format("svg"); }
+  src: url("../assets/fonts/gothamrnd-light.eot?") format("eot"), url("../assets/fonts/gothamrnd-light.woff") format("woff"), url("../assets/fonts/gothamrnd-light.ttf") format("truetype"), url("../assets/fonts/gothamrnd-light.svg#gothamrnd-light") format("svg"); }
 
 /**
  * Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files are automatically sourced.
@@ -298,23 +298,6 @@ html {
 body {
   font-family: "gothamrnd-medium", sans-serif;
   color: #4a4a4a; }
-
-/* CDN fonts */
-@font-face {
-  font-family: 'gothamrnd-bold';
-  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.ttf") format("ttf"); }
-
-@font-face {
-  font-family: 'gothamrnd-book';
-  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-book.woff") format("ttf"); }
-
-@font-face {
-  font-family: 'gothamrnd-medium';
-  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-medium.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-bold.medium") format("ttf"); }
-
-@font-face {
-  font-family: 'gothamrnd-light';
-  src: url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff") format("woff"), url("https://cdn.rawgit.com/leotheloser/changus/1b76d2e3/gothamrnd-light.woff") format("ttf"); }
 
 a {
   text-decoration: none;

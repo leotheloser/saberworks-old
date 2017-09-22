@@ -64,8 +64,8 @@ gulp.task('images', function() {
 
 // Copying fonts 
 gulp.task('fonts', function() {
-  return gulp.src('app/fonts/**/*')
-    .pipe(gulp.dest('dist/fonts'))
+  return gulp.src('app/assets/fonts/**/*')
+    .pipe(gulp.dest('dist/assets/fonts'))
 })
 
 // Cleaning 
