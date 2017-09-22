@@ -1,13 +1,16 @@
 @import '../tools/font';
-$f1 : 'gothamrnd-bold';
-$f2 : 'gothamrnd-book';
-$f3 : 'gothamrnd-medium';
-$f4 : 'gothamrnd-light';
 
- @include font-face($f1, "../fonts/gothamrnd-bold");
- @include font-face($f2, "../fonts/gothamrnd-book");
- @include font-face($f3, "../fonts/gothamrnd-medium");
- @include font-face($f4, "../fonts/gothamrnd-light");
+ $f1 : "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+
+// $f1 : 'gothamrnd-bold';
+// $f2 : 'gothamrnd-book';
+// $f3 : 'gothamrnd-medium';
+// $f4 : 'gothamrnd-light';
+
+//  @include font-face($f1, "../fonts/gothamrnd-bold");
+//  @include font-face($f2, "../fonts/gothamrnd-book");
+//  @include font-face($f3, "../fonts/gothamrnd-medium");
+//  @include font-face($f4, "../fonts/gothamrnd-light");
 
 
 /**
