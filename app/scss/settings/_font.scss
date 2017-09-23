@@ -4,9 +4,9 @@ $f2 : 'gothamrnd-book';
 $f3 : 'gothamrnd-medium';
 // $f4 : 'gothamrnd-light';
 
- @include font-face($f1, "../assets/fonts/gothamrnd-bold");
- @include font-face($f2, "../assets/fonts/gothamrnd-book");
- @include font-face($f3, "../assets/fonts/gothamrnd-medium");
+ @include font-face($f1, "./assets/fonts/gothamrnd-bold");
+ @include font-face($f2, "./assets/fonts/gothamrnd-book");
+ @include font-face($f3, "./assets/fonts/gothamrnd-medium");
 //  @include font-face($f4, "../assets/fonts/gothamrnd-light");
 
 

@@ -199,3 +199,83 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }  
      }   
 
+
+     .work-grid {
+    .grid-sizer,
+    .work {
+        width: 16.67%;
+
+        @media screen and (max-width: 1500px) {
+            width: 20%;
+        }
+
+        @media screen and (max-width: 1200px) {
+            width: 25%;
+        }
+
+        @media screen and (max-width: 900px) {
+            width: 33.34%;
+        }
+
+        @media screen and (max-width: 700px) {
+            width: 50%;
+        }
+
+        @media screen and (max-width: 380px) {
+            width: 100%;
+        }
+    }
+
+    .work {
+        position: relative;
+        box-sizing: border-box;
+        float: left;
+        height: 200px;
+        overflow: hidden;
+
+        .work-thumb {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .name, .meta {
+            opacity: 0;
+            position: relative;
+            color: white;
+        }
+
+        .name {
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 1.5em;
+            white-space: pre-wrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-height: 60px;
+
+            @media screen and (max-width: 700px) {
+                font-size: 1.2em;
+                max-height: 70px;
+            }
+        }
+
+        .meta {
+            .date {
+                margin-right: 5px;
+            }
+        }
+
+        /* If you decided to go with option 2 in the previous step,
+           you will need to manually link your portfolio thumbnail CSS
+           by adding a tag with the name of the project */
+        &.project-name {
+            background-color: #c60c30; // this is optional
+            .work-thumb {
+                background-image: url(/assets/work/project-name/logo.png);
+            }
+        }
+    }
+}
