@@ -46,6 +46,61 @@
       border: 2px solid $button-color-ghost;
       color: $button-text-ghost;  
     }
+    
+    &.c-button-loader{
+      background: transparent;
+      border: 2px solid $button-color-ghost;
+      color: $button-text-ghost;    
+    font-size: 14px;
+    display: inline;
+    padding: 25px 20px;
+    svg{
+    top: -11px;
+    position: relative;  
+    fill: $color-green-light;
+    }
+    &.c-button-loader-active{
+    border: 2px solid $button-color;
+    color: $color-green-light;
+    }
+    }
+
+    &.c-button-icon{
+     color: #656c72;
+    border: 2px solid #eaedee;
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 24px 22px;
+
+    > input{
+     cursor: pointer; 
+    }
+
+    span.icon{
+    position: relative;
+    float: right ;
+    top: -11px;
+    color: #656c72; 
+    
+    i{
+    color: #e7e7e8;  
+    }
+    }
+  
+    &.c-button-uploading{
+    color: #ffffff;
+    border: 2px solid #7dd899;
+    background: #7dd899;
+    svg{
+        fill: $color-white;
+    }  
+    }
+    &.c-button-upload{
+    border: 2px solid #7dd899;
+    color: $color-green-light;  
+    }
+    
+    }
 
     &.c-button-ghost-primary{
       background: transparent;
@@ -124,6 +179,7 @@
     color: $color-white;        
     }
 
+
     } 
 
     .c-button-find{
@@ -145,6 +201,8 @@
     border-radius: 5px;
     padding: 24px 22px;  
     }
+
+
 
         button ,input[type="submit"],
         button ,input[type="reset"],

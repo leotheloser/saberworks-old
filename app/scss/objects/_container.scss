@@ -19,7 +19,7 @@ $iota-objs-container-namespace: 'container';
 
 $iota-objs-container-gutter-default: (
   null: $baseline-x2,
-  sm  : $baseline-x3
+  sm  : (0px),
 );
 
 /**

@@ -162,9 +162,31 @@
           <h2 class="u-color-black o-type-24 u-w-f2 u-mb-x2">Verfication Required</h2>
           <span class="o-type-text u-color-grey u-light">We need you to verify your account , Please Upload a picture of you holding a Passport or drivers licence with your face in one of them</span>
           <hr class="u-light">
+
+        
           <div class="c-control">
-            <span class="o-type-14 u-block u-mb-x2">Upload iamges</span>
-            <button class="c-button c-button-ghost u-mb">Choose Files</button>
+        
+             <label for="file-upload" class="c-button c-button-icon u-mb">
+               Choose Files
+              <span class="icon u-ml-x2">
+               <i class="icon-photo"></i> 
+              </span>
+            </label>
+            <input id="file-upload" type="file"/>
+
+           <button class="c-button c-button-icon c-button-uploading u-mb">Uploading
+              <span class="icon u-ml-x2">
+              <!-- <i class="material-icons">photo</i> -->
+            <svg xmlns="http://www.w3.org/2000/svg " class="c-spinner" viewBox="0 0 32 32" width="24" height="24" fill="#d3d3d3"><path opacity=".25" d="M16 0a16 16 0 0 0 0 32 16 16 0 0 0 0-32m0 4a12 12 0 0 1 0 24 12 12 0 0 1 0-24"></path>
+                    <path d="M16 0a16 16 0 0 1 16 16h-4A12 12 0 0 0 16 4z"></path>
+                    </svg>
+              </span>
+            </button>
+          <button class="c-button c-button-icon c-button-upload u-mb">Upload
+              <span class="icon u-ml-x2">
+               <i class="material-icons">photo</i> 
+              </span>
+            </button> 
           </div>
           <div class="u-bgcolor-grey-light u-p-x2">
             <div class="o-media">

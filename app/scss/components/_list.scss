@@ -68,10 +68,6 @@ ul a.c-slide:hover::after {
 
 
 
-
-
-
-
 .c-list-h{
    background: $color-white;
 // box-shadow: 0px 2px 0px 0px rgba(39, 44, 49, 0.07), 0 3px 16px rgba(39, 44, 49, 0.07);
@@ -94,12 +90,18 @@ ul a.c-slide:hover::after {
     color : $color-white;
     li.o-list__item{
     background: $color-green-light;    
+    @include iota-breakpoint(sm) {
+    // background: $color-white-light;
+    background: #f4f0f0;
+    color: $color-grey;   
     }
+    }
+
    }
 
+
    li.o-list__item{
-   display: inline-block;
-   vertical-align: top;
+   display: block;
    padding: $baseline-x3;
    background: $color-white;
    text-align: center;
