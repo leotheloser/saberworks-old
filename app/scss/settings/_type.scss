@@ -25,7 +25,17 @@ $type-28: (
   sm: ( 30px, $baseline-x5 ),
 );
 
+$type-30: (
+  null: ( 30px, $baseline-x5 ),
+  sm: ( 28px, $baseline-x6 ),
+);
+
 $type-35: (
-  null: ( 25px, $baseline-x5 ),
+  null: ( 35px, $baseline-x5 ),
   sm  : ( 35px, $baseline-x5 )
+);
+
+$type-40: (
+  null: ( 40px, $baseline-x6 ),
+  sm  : ( 35px, $baseline-x6 )
 );

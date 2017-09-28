@@ -116,3 +116,35 @@ transform: scale(1);
   input[type="file"] {
     display: none;
 }
+
+
+.c-check-card{
+
+  .i-check{
+   display: none; 
+  }
+}
+
+
+  .c-check-card-selected{
+  background: $color-green-light;
+  border-color: $color-green-light;
+
+  img{
+    display: none;
+  }
+
+  .i-check{
+   display: block; 
+  }
+
+  span{
+  color: #fff !important;  
+
+  &:nth-child(2){
+   opacity: .9;
+   font-family: $f3;
+  }
+  }
+
+  }

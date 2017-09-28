@@ -395,6 +395,23 @@ span {
   font-size: 16px;
   font-weight: normal; }
 
+.u-price sup {
+  top: -15px;
+  font-size: 16px;
+  position: relative;
+  vertical-align: baseline;
+  color: #4a4a4a; }
+
+.u-price span {
+  font-size: 40px;
+  font-family: "gothamrnd-medium", sans-serif;
+  color: #4a4a4a; }
+
+.u-price small {
+  opacity: 0.9 !important;
+  color: #7b8b8e;
+  font-size: 14px; }
+
 .u-light {
   font-family: "gothamrnd-book", sans-serif; }
 
@@ -403,6 +420,10 @@ p {
   font-weight: 400;
   font-family: "gothamrnd-medium", sans-serif;
   line-height: 20px; }
+
+b {
+  font-family: "gothamrnd-medium", sans-serif;
+  font-weight: normal; }
 
 .article-content p {
   color: #7b8b8e;
@@ -1050,13 +1071,29 @@ svg.stamp {
       font-size: 30px;
       line-height: 35px; } }
 
+.o-type-30 {
+  font-size: 30px;
+  line-height: 35px; }
+  @media screen and (max-width: 769px) {
+    .o-type-30 {
+      font-size: 28px;
+      line-height: 42px; } }
+
 .o-type-35 {
-  font-size: 25px;
+  font-size: 35px;
   line-height: 35px; }
   @media screen and (max-width: 769px) {
     .o-type-35 {
       font-size: 35px;
       line-height: 35px; } }
+
+.o-type-40 {
+  font-size: 40px;
+  line-height: 42px; }
+  @media screen and (max-width: 769px) {
+    .o-type-40 {
+      font-size: 35px;
+      line-height: 42px; } }
 
 /**
  * Enable / Disable breakpoint specific classes
@@ -4370,6 +4407,22 @@ textarea.c-form {
 
 input[type="file"] {
   display: none; }
+
+.c-check-card .i-check {
+  display: none; }
+
+.c-check-card-selected {
+  background: #7dd899;
+  border-color: #7dd899; }
+  .c-check-card-selected img {
+    display: none; }
+  .c-check-card-selected .i-check {
+    display: block; }
+  .c-check-card-selected span {
+    color: #fff !important; }
+    .c-check-card-selected span:nth-child(2) {
+      opacity: .9;
+      font-family: "gothamrnd-medium"; }
 
 .c-overlay-top:before {
   content: "";
